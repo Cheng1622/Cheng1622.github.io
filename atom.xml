@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>橙子の魔法屋</title>
+  
+  
+  <link href="https://cheng1622.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://cheng1622.github.io/"/>
+  <updated>2022-03-24T06:37:06.898Z</updated>
+  <id>https://cheng1622.github.io/</id>
+  
+  <author>
+    <name>是橙子吖</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo x 语雀  云端写作 自动部署</title>
+    <link href="https://cheng1622.github.io/2022/03/22/yuque/"/>
+    <id>https://cheng1622.github.io/2022/03/22/yuque/</id>
+    <published>2022-03-22T04:57:47.000Z</published>
+    <updated>2022-03-24T06:37:06.898Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div class=&quot;hide-toggle&quot; style=&quot;border: 1px solid #fdf1e7&quot;&gt;&lt;div class=&quot;hide-button toggle-title&quot; style=&quot;background-color: #fdf1e7;&quot;&gt;&lt;i</summary>
+        
+      
+    
+    
+    
+    <category term="🧹魔法扫帚" scheme="https://cheng1622.github.io/categories/%F0%9F%A7%B9%E9%AD%94%E6%B3%95%E6%89%AB%E5%B8%9A/"/>
+    
+    
+    <category term="hexo" scheme="https://cheng1622.github.io/tags/hexo/"/>
+    
+    <category term="语雀" scheme="https://cheng1622.github.io/tags/%E8%AF%AD%E9%9B%80/"/>
+    
+    <category term="butterfly" scheme="https://cheng1622.github.io/tags/butterfly/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数据结构</title>
+    <link href="https://cheng1622.github.io/2022/03/07/sjjg/"/>
+    <id>https://cheng1622.github.io/2022/03/07/sjjg/</id>
+    <published>2022-03-07T02:55:20.000Z</published>
+    <updated>2022-03-22T11:45:53.261Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;静态链表和动态链表&quot;&gt;&lt;a href=&quot;#静态链表和动态链表&quot; class=&quot;headerlink&quot; title=&quot;静态链表和动态链表&quot;&gt;&lt;/a&gt;静态链表和动态链表&lt;/h2&gt;&lt;h3 id=&quot;静态链表&quot;&gt;&lt;a href=&quot;#静态链表&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="🔔魔法铃铛" scheme="https://cheng1622.github.io/categories/%F0%9F%94%94%E9%AD%94%E6%B3%95%E9%93%83%E9%93%9B/"/>
+    
+    
+    <category term="数据结构" scheme="https://cheng1622.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>大学物理</title>
+    <link href="https://cheng1622.github.io/2022/03/06/dxwl/"/>
+    <id>https://cheng1622.github.io/2022/03/06/dxwl/</id>
+    <published>2022-03-06T12:59:07.000Z</published>
+    <updated>2022-03-22T11:45:53.257Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;第二章刚体的定轴转动&quot;&gt;&lt;a href=&quot;#第二章刚体的定轴转动&quot; class=&quot;headerlink&quot; title=&quot;第二章刚体的定轴转动&quot;&gt;&lt;/a&gt;第二章刚体的定轴转动&lt;/h2&gt;&lt;h3 id=&quot;刚体&quot;&gt;&lt;a href=&quot;#刚体&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="🔔魔法铃铛" scheme="https://cheng1622.github.io/categories/%F0%9F%94%94%E9%AD%94%E6%B3%95%E9%93%83%E9%93%9B/"/>
+    
+    
+    <category term="大学物理" scheme="https://cheng1622.github.io/tags/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>计算机组成原理</title>
+    <link href="https://cheng1622.github.io/2022/03/04/jsjzcyl/"/>
+    <id>https://cheng1622.github.io/2022/03/04/jsjzcyl/</id>
+    <published>2022-03-04T14:04:14.000Z</published>
+    <updated>2022-03-22T11:45:53.257Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;第一章计算机系统概论&quot;&gt;&lt;a href=&quot;#第一章计算机系统概论&quot; class=&quot;headerlink&quot; title=&quot;第一章计算机系统概论&quot;&gt;&lt;/a&gt;第一章计算机系统概论&lt;/h2&gt;&lt;h3 id=&quot;计算机系统可分为硬件和软件&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="🔔魔法铃铛" scheme="https://cheng1622.github.io/categories/%F0%9F%94%94%E9%AD%94%E6%B3%95%E9%93%83%E9%93%9B/"/>
+    
+    
+    <category term="计算机组成原理" scheme="https://cheng1622.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>局域网内对应端口开放的主机（Linux）</title>
+    <link href="https://cheng1622.github.io/2022/03/02/shell/"/>
+    <id>https://cheng1622.github.io/2022/03/02/shell/</id>
+    <published>2022-03-02T12:35:36.000Z</published>
+    <updated>2022-03-24T14:12:10.372Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="🍊魔法橙子" scheme="https://cheng1622.github.io/categories/%F0%9F%8D%8A%E9%AD%94%E6%B3%95%E6%A9%99%E5%AD%90/"/>
+    
+    
+    <category term="Linux" scheme="https://cheng1622.github.io/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>sql注入攻击之简单实例</title>
+    <link href="https://cheng1622.github.io/2022/03/02/sql/"/>
+    <id>https://cheng1622.github.io/2022/03/02/sql/</id>
+    <published>2022-03-02T12:00:22.000Z</published>
+    <updated>2022-03-22T11:45:53.261Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="🐇魔法兔兔" scheme="https://cheng1622.github.io/categories/%F0%9F%90%87%E9%AD%94%E6%B3%95%E5%85%94%E5%85%94/"/>
+    
+    
+    <category term="网安" scheme="https://cheng1622.github.io/tags/%E7%BD%91%E5%AE%89/"/>
+    
+    <category term="sql" scheme="https://cheng1622.github.io/tags/sql/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>图片上传漏洞</title>
+    <link href="https://cheng1622.github.io/2022/02/17/tpsc/"/>
+    <id>https://cheng1622.github.io/2022/02/17/tpsc/</id>
+    <published>2022-02-17T10:09:34.000Z</published>
+    <updated>2022-03-22T11:45:53.261Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="🐇魔法兔兔" scheme="https://cheng1622.github.io/categories/%F0%9F%90%87%E9%AD%94%E6%B3%95%E5%85%94%E5%85%94/"/>
+    
+    
+    <category term="网安" scheme="https://cheng1622.github.io/tags/%E7%BD%91%E5%AE%89/"/>
+    
+    <category term="kali" scheme="https://cheng1622.github.io/tags/kali/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>基于go-cqhttp实现QQ机器人（Linux）</title>
+    <link href="https://cheng1622.github.io/2022/02/13/bot/"/>
+    <id>https://cheng1622.github.io/2022/02/13/bot/</id>
+    <published>2022-02-13T14:29:31.000Z</published>
+    <updated>2022-03-22T11:45:53.257Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="🍊魔法橙子" scheme="https://cheng1622.github.io/categories/%F0%9F%8D%8A%E9%AD%94%E6%B3%95%E6%A9%99%E5%AD%90/"/>
+    
+    
+    <category term="go-cqhttp" scheme="https://cheng1622.github.io/tags/go-cqhttp/"/>
+    
+    <category term="Linux" scheme="https://cheng1622.github.io/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>c++之实验课作业</title>
+    <link href="https://cheng1622.github.io/2022/02/12/cpp-zuoye/"/>
+    <id>https://cheng1622.github.io/2022/02/12/cpp-zuoye/</id>
+    <published>2022-02-12T14:40:01.000Z</published>
+    <updated>2022-03-22T11:45:53.257Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;橙子的c++作业罢了&lt;br&gt;希望大家用得上  &lt;/p&gt;
+&lt;h2 id=&quot;实验一&quot;&gt;&lt;a href=&quot;#实验一&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="🔔魔法铃铛" scheme="https://cheng1622.github.io/categories/%F0%9F%94%94%E9%AD%94%E6%B3%95%E9%93%83%E9%93%9B/"/>
+    
+    
+    <category term="c++" scheme="https://cheng1622.github.io/tags/c/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在Hexo的Butterfly主题博客配置Twikoo</title>
+    <link href="https://cheng1622.github.io/2022/02/11/liu/"/>
+    <id>https://cheng1622.github.io/2022/02/11/liu/</id>
+    <published>2022-02-11T08:41:27.000Z</published>
+    <updated>2022-03-22T11:45:53.257Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="🧹魔法扫帚" scheme="https://cheng1622.github.io/categories/%F0%9F%A7%B9%E9%AD%94%E6%B3%95%E6%89%AB%E5%B8%9A/"/>
+    
+    
+    <category term="Butterfly" scheme="https://cheng1622.github.io/tags/Butterfly/"/>
+    
+    <category term="Hexo" scheme="https://cheng1622.github.io/tags/Hexo/"/>
+    
+    <category term="Twikoo" scheme="https://cheng1622.github.io/tags/Twikoo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>c++之学习资料</title>
+    <link href="https://cheng1622.github.io/2022/02/11/cpp/"/>
+    <id>https://cheng1622.github.io/2022/02/11/cpp/</id>
+    <published>2022-02-11T08:19:57.000Z</published>
+    <updated>2022-03-22T11:45:53.257Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;C-核心编程&quot;&gt;&lt;a href=&quot;#C-核心编程&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="🔔魔法铃铛" scheme="https://cheng1622.github.io/categories/%F0%9F%94%94%E9%AD%94%E6%B3%95%E9%93%83%E9%93%9B/"/>
+    
+    
+    <category term="c++" scheme="https://cheng1622.github.io/tags/c/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>phpstudy mysql数据库启动，报错1055</title>
+    <link href="https://cheng1622.github.io/2022/02/11/phpstudy/"/>
+    <id>https://cheng1622.github.io/2022/02/11/phpstudy/</id>
+    <published>2022-02-11T07:49:22.000Z</published>
+    <updated>2022-03-22T11:45:53.261Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="📜魔法卷轴" scheme="https://cheng1622.github.io/categories/%F0%9F%93%9C%E9%AD%94%E6%B3%95%E5%8D%B7%E8%BD%B4/"/>
+    
+    
+    <category term="phpstudy" scheme="https://cheng1622.github.io/tags/phpstudy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>shodan实现入侵摄像头</title>
+    <link href="https://cheng1622.github.io/2022/02/11/shodan/"/>
+    <id>https://cheng1622.github.io/2022/02/11/shodan/</id>
+    <published>2022-02-11T02:20:17.000Z</published>
+    <updated>2022-03-22T11:45:53.261Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="🐇魔法兔兔" scheme="https://cheng1622.github.io/categories/%F0%9F%90%87%E9%AD%94%E6%B3%95%E5%85%94%E5%85%94/"/>
+    
+    
+    <category term="网安" scheme="https://cheng1622.github.io/tags/%E7%BD%91%E5%AE%89/"/>
+    
+    <category term="shodan" scheme="https://cheng1622.github.io/tags/shodan/"/>
+    
+    <category term="kali" scheme="https://cheng1622.github.io/tags/kali/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vscode|command &#39;markdown.extension.onBackspaceKey&#39; not found</title>
+    <link href="https://cheng1622.github.io/2022/02/11/vs/"/>
+    <id>https://cheng1622.github.io/2022/02/11/vs/</id>
+    <published>2022-02-11T02:01:21.000Z</published>
+    <updated>2022-03-22T11:45:53.261Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;想用键盘Back 在 vscode 去删除一些字符，发现报如下错误：&lt;/p&gt;
+&lt;figure class=&quot;highlight</summary>
+        
+      
+    
+    
+    
+    <category term="🎃魔法南瓜" scheme="https://cheng1622.github.io/categories/%F0%9F%8E%83%E9%AD%94%E6%B3%95%E5%8D%97%E7%93%9C/"/>
+    
+    
+    <category term="vscode" scheme="https://cheng1622.github.io/tags/vscode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux搭建web版的vscode</title>
+    <link href="https://cheng1622.github.io/2022/02/07/code-server/"/>
+    <id>https://cheng1622.github.io/2022/02/07/code-server/</id>
+    <published>2022-02-07T12:23:25.000Z</published>
+    <updated>2022-03-22T11:45:53.257Z</updated>
+    
+    
+    <summary type="html">Linux搭建web版的vscode</summary>
+    
+    
+    
+    <category term="🍊魔法橙子" scheme="https://cheng1622.github.io/categories/%F0%9F%8D%8A%E9%AD%94%E6%B3%95%E6%A9%99%E5%AD%90/"/>
+    
+    
+    <category term="Linux" scheme="https://cheng1622.github.io/tags/Linux/"/>
+    
+    <category term="vscode" scheme="https://cheng1622.github.io/tags/vscode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>kms命令激活windows/office</title>
+    <link href="https://cheng1622.github.io/2022/02/07/kms/"/>
+    <id>https://cheng1622.github.io/2022/02/07/kms/</id>
+    <published>2022-02-07T04:45:23.000Z</published>
+    <updated>2022-03-22T11:45:53.257Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;kms激活windows&amp;#x2F;office 有问题从下面这个网站找&lt;br&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="🎃魔法南瓜" scheme="https://cheng1622.github.io/categories/%F0%9F%8E%83%E9%AD%94%E6%B3%95%E5%8D%97%E7%93%9C/"/>
+    
+    
+    <category term="kms" scheme="https://cheng1622.github.io/tags/kms/"/>
+    
+    <category term="windows" scheme="https://cheng1622.github.io/tags/windows/"/>
+    
+    <category term="office" scheme="https://cheng1622.github.io/tags/office/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux上v2ray的搭建</title>
+    <link href="https://cheng1622.github.io/2022/02/04/v2ray/"/>
+    <id>https://cheng1622.github.io/2022/02/04/v2ray/</id>
+    <published>2022-02-04T05:57:47.000Z</published>
+    <updated>2022-03-22T11:51:00.211Z</updated>
+    
+    
+    <summary type="html">Linux上v2ray的搭建</summary>
+    
+    
+    
+    <category term="🍊魔法橙子" scheme="https://cheng1622.github.io/categories/%F0%9F%8D%8A%E9%AD%94%E6%B3%95%E6%A9%99%E5%AD%90/"/>
+    
+    
+    <category term="Linux" scheme="https://cheng1622.github.io/tags/Linux/"/>
+    
+    <category term="v2ray" scheme="https://cheng1622.github.io/tags/v2ray/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://cheng1622.github.io/2022/01/01/hello-world/"/>
+    <id>https://cheng1622.github.io/2022/01/01/hello-world/</id>
+    <published>2021-12-31T16:00:00.000Z</published>
+    <updated>2022-03-22T11:45:53.257Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;欢迎来到 &lt;a href=&quot;https://cheng1622.github.io/&quot;&gt;橙子の魔法屋&lt;/a&gt;! 这是一个基于hexo搭建的博客。&lt;/p&gt;
+&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="hexo" scheme="https://cheng1622.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+</feed>
