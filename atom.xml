@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hexo x 语雀  云端写作 自动部署</title>
-    <link href="https://cheng1622.github.io/2022/03/22/yuque/"/>
-    <id>https://cheng1622.github.io/2022/03/22/yuque/</id>
+    <link href="https://cheng1622.github.io/posts/yuque/"/>
+    <id>https://cheng1622.github.io/posts/yuque/</id>
     <published>2022-03-22T04:57:47.000Z</published>
     <updated>2022-03-24T06:37:06.898Z</updated>
     
@@ -47,8 +47,8 @@
   
   <entry>
     <title>数据结构</title>
-    <link href="https://cheng1622.github.io/2022/03/07/sjjg/"/>
-    <id>https://cheng1622.github.io/2022/03/07/sjjg/</id>
+    <link href="https://cheng1622.github.io/posts/sjjg/"/>
+    <id>https://cheng1622.github.io/posts/sjjg/</id>
     <published>2022-03-07T02:55:20.000Z</published>
     <updated>2022-03-22T11:45:53.261Z</updated>
     
@@ -72,8 +72,8 @@
   
   <entry>
     <title>大学物理</title>
-    <link href="https://cheng1622.github.io/2022/03/06/dxwl/"/>
-    <id>https://cheng1622.github.io/2022/03/06/dxwl/</id>
+    <link href="https://cheng1622.github.io/posts/dxwl/"/>
+    <id>https://cheng1622.github.io/posts/dxwl/</id>
     <published>2022-03-06T12:59:07.000Z</published>
     <updated>2022-03-22T11:45:53.257Z</updated>
     
@@ -97,8 +97,8 @@
   
   <entry>
     <title>计算机组成原理</title>
-    <link href="https://cheng1622.github.io/2022/03/04/jsjzcyl/"/>
-    <id>https://cheng1622.github.io/2022/03/04/jsjzcyl/</id>
+    <link href="https://cheng1622.github.io/posts/jsjzcyl/"/>
+    <id>https://cheng1622.github.io/posts/jsjzcyl/</id>
     <published>2022-03-04T14:04:14.000Z</published>
     <updated>2022-03-22T11:45:53.257Z</updated>
     
@@ -122,8 +122,8 @@
   
   <entry>
     <title>局域网内对应端口开放的主机（Linux）</title>
-    <link href="https://cheng1622.github.io/2022/03/02/shell/"/>
-    <id>https://cheng1622.github.io/2022/03/02/shell/</id>
+    <link href="https://cheng1622.github.io/posts/shell/"/>
+    <id>https://cheng1622.github.io/posts/shell/</id>
     <published>2022-03-02T12:35:36.000Z</published>
     <updated>2022-03-24T14:12:10.372Z</updated>
     
@@ -147,8 +147,8 @@
   
   <entry>
     <title>sql注入攻击之简单实例</title>
-    <link href="https://cheng1622.github.io/2022/03/02/sql/"/>
-    <id>https://cheng1622.github.io/2022/03/02/sql/</id>
+    <link href="https://cheng1622.github.io/posts/sql/"/>
+    <id>https://cheng1622.github.io/posts/sql/</id>
     <published>2022-03-02T12:00:22.000Z</published>
     <updated>2022-03-22T11:45:53.261Z</updated>
     
@@ -174,8 +174,8 @@
   
   <entry>
     <title>图片上传漏洞</title>
-    <link href="https://cheng1622.github.io/2022/02/17/tpsc/"/>
-    <id>https://cheng1622.github.io/2022/02/17/tpsc/</id>
+    <link href="https://cheng1622.github.io/posts/tpsc/"/>
+    <id>https://cheng1622.github.io/posts/tpsc/</id>
     <published>2022-02-17T10:09:34.000Z</published>
     <updated>2022-03-22T11:45:53.261Z</updated>
     
@@ -201,8 +201,8 @@
   
   <entry>
     <title>基于go-cqhttp实现QQ机器人（Linux）</title>
-    <link href="https://cheng1622.github.io/2022/02/13/bot/"/>
-    <id>https://cheng1622.github.io/2022/02/13/bot/</id>
+    <link href="https://cheng1622.github.io/posts/bot/"/>
+    <id>https://cheng1622.github.io/posts/bot/</id>
     <published>2022-02-13T14:29:31.000Z</published>
     <updated>2022-03-22T11:45:53.257Z</updated>
     
@@ -228,8 +228,8 @@
   
   <entry>
     <title>c++之实验课作业</title>
-    <link href="https://cheng1622.github.io/2022/02/12/cpp-zuoye/"/>
-    <id>https://cheng1622.github.io/2022/02/12/cpp-zuoye/</id>
+    <link href="https://cheng1622.github.io/posts/cpp-zuoye/"/>
+    <id>https://cheng1622.github.io/posts/cpp-zuoye/</id>
     <published>2022-02-12T14:40:01.000Z</published>
     <updated>2022-03-22T11:45:53.257Z</updated>
     
@@ -254,8 +254,8 @@
   
   <entry>
     <title>在Hexo的Butterfly主题博客配置Twikoo</title>
-    <link href="https://cheng1622.github.io/2022/02/11/liu/"/>
-    <id>https://cheng1622.github.io/2022/02/11/liu/</id>
+    <link href="https://cheng1622.github.io/posts/liu/"/>
+    <id>https://cheng1622.github.io/posts/liu/</id>
     <published>2022-02-11T08:41:27.000Z</published>
     <updated>2022-03-22T11:45:53.257Z</updated>
     
@@ -283,8 +283,8 @@
   
   <entry>
     <title>c++之学习资料</title>
-    <link href="https://cheng1622.github.io/2022/02/11/cpp/"/>
-    <id>https://cheng1622.github.io/2022/02/11/cpp/</id>
+    <link href="https://cheng1622.github.io/posts/cpp/"/>
+    <id>https://cheng1622.github.io/posts/cpp/</id>
     <published>2022-02-11T08:19:57.000Z</published>
     <updated>2022-03-22T11:45:53.257Z</updated>
     
@@ -308,8 +308,8 @@
   
   <entry>
     <title>phpstudy mysql数据库启动，报错1055</title>
-    <link href="https://cheng1622.github.io/2022/02/11/phpstudy/"/>
-    <id>https://cheng1622.github.io/2022/02/11/phpstudy/</id>
+    <link href="https://cheng1622.github.io/posts/phpstudy/"/>
+    <id>https://cheng1622.github.io/posts/phpstudy/</id>
     <published>2022-02-11T07:49:22.000Z</published>
     <updated>2022-03-22T11:45:53.261Z</updated>
     
@@ -333,8 +333,8 @@
   
   <entry>
     <title>shodan实现入侵摄像头</title>
-    <link href="https://cheng1622.github.io/2022/02/11/shodan/"/>
-    <id>https://cheng1622.github.io/2022/02/11/shodan/</id>
+    <link href="https://cheng1622.github.io/posts/shodan/"/>
+    <id>https://cheng1622.github.io/posts/shodan/</id>
     <published>2022-02-11T02:20:17.000Z</published>
     <updated>2022-03-22T11:45:53.261Z</updated>
     
@@ -362,8 +362,8 @@
   
   <entry>
     <title>vscode|command &#39;markdown.extension.onBackspaceKey&#39; not found</title>
-    <link href="https://cheng1622.github.io/2022/02/11/vs/"/>
-    <id>https://cheng1622.github.io/2022/02/11/vs/</id>
+    <link href="https://cheng1622.github.io/posts/vs/"/>
+    <id>https://cheng1622.github.io/posts/vs/</id>
     <published>2022-02-11T02:01:21.000Z</published>
     <updated>2022-03-22T11:45:53.261Z</updated>
     
@@ -388,8 +388,8 @@
   
   <entry>
     <title>Linux搭建web版的vscode</title>
-    <link href="https://cheng1622.github.io/2022/02/07/code-server/"/>
-    <id>https://cheng1622.github.io/2022/02/07/code-server/</id>
+    <link href="https://cheng1622.github.io/posts/code-server/"/>
+    <id>https://cheng1622.github.io/posts/code-server/</id>
     <published>2022-02-07T12:23:25.000Z</published>
     <updated>2022-03-22T11:45:53.257Z</updated>
     
@@ -409,8 +409,8 @@
   
   <entry>
     <title>kms命令激活windows/office</title>
-    <link href="https://cheng1622.github.io/2022/02/07/kms/"/>
-    <id>https://cheng1622.github.io/2022/02/07/kms/</id>
+    <link href="https://cheng1622.github.io/posts/kms/"/>
+    <id>https://cheng1622.github.io/posts/kms/</id>
     <published>2022-02-07T04:45:23.000Z</published>
     <updated>2022-03-22T11:45:53.257Z</updated>
     
@@ -438,8 +438,8 @@
   
   <entry>
     <title>Linux上v2ray的搭建</title>
-    <link href="https://cheng1622.github.io/2022/02/04/v2ray/"/>
-    <id>https://cheng1622.github.io/2022/02/04/v2ray/</id>
+    <link href="https://cheng1622.github.io/posts/v2ray/"/>
+    <id>https://cheng1622.github.io/posts/v2ray/</id>
     <published>2022-02-04T05:57:47.000Z</published>
     <updated>2022-03-22T11:51:00.211Z</updated>
     
@@ -459,8 +459,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://cheng1622.github.io/2022/01/01/hello-world/"/>
-    <id>https://cheng1622.github.io/2022/01/01/hello-world/</id>
+    <link href="https://cheng1622.github.io/posts/hello-world/"/>
+    <id>https://cheng1622.github.io/posts/hello-world/</id>
     <published>2021-12-31T16:00:00.000Z</published>
     <updated>2022-03-22T11:45:53.257Z</updated>
     
