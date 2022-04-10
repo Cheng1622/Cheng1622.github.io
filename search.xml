@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>PHP TP5 安装更新ThinkPHP5框架</title>
+      <link href="/posts/cm90dg/"/>
+      <url>/posts/cm90dg/</url>
+      
+        <content type="html"><![CDATA[<ul><li>利用 composer 安装</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">~/composer.phar create-project topthink/think=5.0.* tp5  --prefer-dist</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 📜魔法卷轴 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> php - tp5 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hexo x 语雀  云端写作 自动部署</title>
       <link href="/posts/mhhzac/"/>
       <url>/posts/mhhzac/</url>
