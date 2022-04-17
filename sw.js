@@ -1,0 +1,1 @@
+self.addEventListener("fetch",(function(e){console.log("sw fetch() 发送的请求",e.request.url)}));
