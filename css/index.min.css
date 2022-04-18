@@ -472,7 +472,7 @@ div.btns a > i {
     /* 鼠标悬停是左侧缩进归零，完全显示按钮 */
   }
 
-  .aplayer.aplayer-fixed .aplayer-lrc {
+.aplayer.aplayer-fixed .aplayer-lrc {
     display: block;
     position: fixed;
     bottom: 10px;
@@ -481,8 +481,8 @@ div.btns a > i {
     margin: 0;
     z-index: 98;
     pointer-events: none;
-    text-shadow: -1px -1px 0 #fff;    //阴影
+    text-shadow: -1px -1px 0 #fff;    
 }
-//颜色大小
+/* //颜色大小
 .aplayer .aplayer-lrc p 
-
+ */
