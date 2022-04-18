@@ -4,8 +4,8 @@ if (pathName === '/') {
       if ( $("#bber-talk").length > 0 ) {
         // var jsonUrl = ''
         // jsonUrl = "/json/bber.json"
-        var a = <li class="item item-2">欢迎来到我的博客，来和我一起学习吧 o(*￣▽￣*)ブ</li>
-        var b = <li class="item item-2">我很菜，有错误望及时指出，十分感赐</li>
+        var a = "<li class='item item-1'>"+"欢迎来到我的博客，来和我一起学习吧 o(*￣▽￣*)ブ"+"</li>";
+        var b = "<li class='item item-1'>"+"我很菜，有错误望及时指出，十分感赐"+"</li>";
         var bberHtml = a+b ;
         $('#bber-talk').append('<span class="index-talk-icon" style="margin-right: 5px"><i class="fas fa-bullhorn" style="color: #FF0000;animation: announ_animation .8s linear infinite"></i></span><ul class="talk-list">'+bberHtml+'</ul>')
     
@@ -33,11 +33,11 @@ if (pathName === '/') {
         //   });
         //   return str;
         // }
-        // function Roll (){
-        //   var list_li = $('.talk-list li'),cur_li = list_li.first(),last_li = list_li.last();
-        //   last_li.after(cur_li);
-        // };
-        // setInterval(Roll,3000);
+        function Roll (){
+          var list_li = $('.talk-list li'),cur_li = list_li.first(),last_li = list_li.last();
+          last_li.after(cur_li);
+        };
+        setInterval(Roll,3000);
       }
     });
 } else {}
