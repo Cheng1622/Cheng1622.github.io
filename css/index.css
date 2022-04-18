@@ -8151,11 +8151,12 @@ div#quit-box {
 #rightside {
   position: fixed;
   right: -48px;
+  bottom: 60px;
   bottom: 40px;
   z-index: 100;
-  opacity: 0;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  filter: alpha(opacity=0);
+  opacity: 0x;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0x)";
+  filter: alpha(opacity=0x);
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
