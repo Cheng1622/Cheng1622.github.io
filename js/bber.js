@@ -7,7 +7,7 @@ if (pathName === '/') {
         // var a = <li class="item item-1">欢迎来到我的博客，来和我一起学习吧 o(*￣▽￣*)ブ</li>
         // var b = <li class="item item-2">我很菜，有错误望及时指出，十分感赐</li>
         // var bberHtml = a+b ;
-        $('#bber-talk').append('<span class="index-talk-icon" style="margin-right: 5px"><i class="fas fa-bullhorn" style="color: #FF0000;animation: announ_animation .8s linear infinite"></i></span><ul class="talk-list"><li class="item item-1" style="text-align:center;">欢迎来到我的博客，来和我一起学习吧 o(*￣▽￣*)ブ</li><li class="item item-2" text-align:center;>我很菜，有错误还望及时指出，十分感赐</li></ul>');
+        $('#bber-talk').append('<span class="index-talk-icon" style="margin-right: 5px"><i class="fas fa-bullhorn" style="color: #FF0000;animation: announ_animation .8s linear infinite"></i></span><ul class="talk-list"><li class="item item-1">欢迎来到我的博客，来和我一起学习吧 o(*￣▽￣*)ブ</li><li class="item item-2" >我很菜，有错误还望及时指出，十分感赐</li></ul>');
     
         // function urlToLink(str) {
         //   var img_tag = /(<br>)|([[\s\S]*])|(\()|(\))/g;
