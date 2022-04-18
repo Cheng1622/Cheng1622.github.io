@@ -1,1 +1,147 @@
-"use strict";hexo.extend.helper.register("list_category",(function(e,t){if(t||e&&Object.prototype.hasOwnProperty.call(e,"length")||(t=e,e=this.site.categories),!e||!e.length)return"";t=t||{};const{style:a="list",transform:s,separator:r=", ",suffix:l=""}=t,n=!Object.prototype.hasOwnProperty.call(t,"show_count")||t.show_count,i=t.class||"category",c=t.depth?parseInt(t.depth,10):0,o=t.orderby||"name",h=t.order||1,p=t.show_current||!1,g=!!Object.prototype.hasOwnProperty.call(t,"children_indicator")&&t.children_indicator;let $=!1,f=[],u=[],d={};hexo.theme.config.categoryBar&&(d=hexo.theme.config.categoryBar),hexo.theme.config.category&&(d=hexo.theme.config.category),$=d.enable,f=d.cover,u=d.descr;const m=t=>{const a={};return a.parent=t||{$exists:!1},e.find(a).sort(o,h).filter((e=>e.length))},y=(e,t)=>{let a="";return m(t).forEach(((t,r)=>{let o;(!c||e+1<c)&&(o=y(e+1,t._id));let h=!1;if(p&&this.page){for(let e=0;e<t.length;e++){const a=t.posts.data[e];if(a&&a._id===this.page._id){h=!0;break}}h=h||this.page.base&&this.page.base.startsWith(t.path)}a+=`<li class="${i}-list-item${o&&g?` ${g}`:""}">`,a+=`<a class="${i}-list-link${h?" current":""}" href="/${t.path}${l}">`,a+=s?s(t.name):t.name,a+="</a>",n&&(a+=`<span class="${i}-list-count">${t.length}</span>`),o&&(a+=`<ul class="${i}-list-child">${o}</ul>`),a+="</li>"})),a},_=(e,t)=>{let a="";return m(t).forEach(((t,o)=>{(o||e)&&(a+=r),a+=`<a class="${i}-link" href="/${t.path}${l}">`,a+=s?s(t.name):t.name,n&&(a+=`<span class="${i}-count">${t.length}</span>`),a+="</a>",(!c||e+1<c)&&(a+=_(e+1,t._id))})),a};return $?`<div class="category_card_wrap">${((e,t)=>{let a=f.map((e=>e.slice(5,-2))),c="";return m(t).forEach(((t,o)=>{(o||e)&&(c+=r),c+='<figure class="effect-apollo">',c+=`<img src="${a[o]}" alt="${u[o]}"><figcaption>`,c+="<h3>",c+=s?s(t.name):t.name,c+="</h3>",n&&(c+=`<p>${t.length}</p>`),c+=`<a class="${i}-list-link" href="/${t.path}${l}">${t.name}</a>`,c+="</figcaption></figure>"})),c})(0)}</div>`:"list"===a?`<ul class="${i}-list">${y(0)}</ul>`:_(0)}));
+'use strict'
+
+hexo.extend.helper.register('list_category', function (categories, options) {
+    if (!options && (!categories || !Object.prototype.hasOwnProperty.call(categories, 'length'))) {
+        options = categories;
+        categories = this.site.categories;
+    }
+
+    if (!categories || !categories.length) return '';
+    options = options || {};
+
+    const { style = 'list', transform, separator = ', ', suffix = '' } = options;
+    const showCount = Object.prototype.hasOwnProperty.call(options, 'show_count') ? options.show_count : true;
+    const className = options.class || 'category';
+    const depth = options.depth ? parseInt(options.depth, 10) : 0;
+    const orderby = options.orderby || 'name';
+    const order = options.order || 1;
+    const showCurrent = options.show_current || false;
+    const childrenIndicator = Object.prototype.hasOwnProperty.call(options, 'children_indicator') ? options.children_indicator : false;
+    let enable = false, cover = [], descr = [];
+    let categoryConfig = {};
+    if(hexo.theme.config.categoryBar){
+        categoryConfig = hexo.theme.config.categoryBar;
+    }
+
+    if(hexo.theme.config.category){
+        categoryConfig = hexo.theme.config.category;
+    }
+
+    enable = categoryConfig.enable;
+    cover = categoryConfig.cover;
+    descr = categoryConfig.descr;
+
+    const prepareQuery = parent => {
+        const query = {};
+
+        if (parent) {
+            query.parent = parent;
+        } else {
+            query.parent = {$exists: false};
+        }
+
+        return categories.find(query).sort(orderby, order).filter(cat => cat.length);
+    };
+
+    const hierarchicalList = (level, parent) => {
+        let result = '';
+
+        prepareQuery(parent).forEach((cat, i) => {
+            let child;
+            if (!depth || level + 1 < depth) {
+                child = hierarchicalList(level + 1, cat._id);
+            }
+
+            let isCurrent = false;
+            if (showCurrent && this.page) {
+                for (let j = 0; j < cat.length; j++) {
+                    const post = cat.posts.data[j];
+                    if (post && post._id === this.page._id) {
+                        isCurrent = true;
+                        break;
+                    }
+                }
+
+                // special case: category page
+                isCurrent = isCurrent || (this.page.base && this.page.base.startsWith(cat.path));
+            }
+
+            const additionalClassName = child && childrenIndicator ? ` ${childrenIndicator}` : '';
+
+            result += `<li class="${className}-list-item${additionalClassName}">`;
+
+            result += `<a class="${className}-list-link${isCurrent ? ' current' : ''}" href="/${cat.path}${suffix}">`;
+            result += transform ? transform(cat.name) : cat.name;
+            result += '</a>';
+
+            if (showCount) {
+                result += `<span class="${className}-list-count">${cat.length}</span>`;
+            }
+
+            if (child) {
+                result += `<ul class="${className}-list-child">${child}</ul>`;
+            }
+
+            result += '</li>';
+        });
+
+        return result;
+    };
+
+    const flatList = (level, parent) => {
+        let result = '';
+
+        prepareQuery(parent).forEach((cat, i) => {
+            if (i || level) result += separator;
+
+            result += `<a class="${className}-link" href="/${cat.path}${suffix}">`;
+            result += transform ? transform(cat.name) : cat.name;
+
+            if (showCount) {
+                result += `<span class="${className}-count">${cat.length}</span>`;
+            }
+
+            result += '</a>';
+
+            if (!depth || level + 1 < depth) {
+                result += flatList(level + 1, cat._id);
+            }
+        });
+
+        return result;
+    };
+
+    const barList = (level, parent) => {
+        let picture = cover.map(item => {
+            return item.slice(5, -2);
+        })
+
+        let result = '';
+        prepareQuery(parent).forEach((cat, i) => {
+            if(i || level) result += separator;
+            
+            result += '<figure class="effect-apollo">';
+            result += `<img src="${picture[i]}" alt="${descr[i]}"><figcaption>`;
+            result += '<h3>';
+            result += transform ? transform(cat.name) : cat.name;
+            result += '</h3>';
+            if (showCount) {
+                result += `<p>${cat.length}</p>`;
+            }
+            result += `<a class="${className}-list-link" href="/${cat.path}${suffix}">${cat.name}</a>`;
+            result += '</figcaption></figure>'
+        })
+
+        return result;
+    }
+
+    if(enable){
+        return `<div class="category_card_wrap">${barList(0)}</div>`
+    }
+
+    if (style === 'list') {
+        return `<ul class="${className}-list">${hierarchicalList(0)}</ul>`;
+    }
+
+    return flatList(0);
+})
