@@ -489,7 +489,7 @@ div.btns a > i {
 
 
 
-分类
+/*分类*/
  .category_card_wrap{
     display: flex;
     justify-content: space-between;
