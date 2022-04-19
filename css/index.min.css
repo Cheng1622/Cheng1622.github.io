@@ -638,7 +638,7 @@ figure.effect-apollo:hover p {
   .swiper-wrapper .swiper-slide {
     width: 100%;
     text-align: center;
-    -webkit-line-clamp: 1;
+    /* -webkit-line-clamp: 1; */
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -662,4 +662,8 @@ figure.effect-apollo:hover p {
     margin-left: 8px;
     transition: 0.3s;
   }
+
+
+
+/* swiper */
 
