@@ -8150,9 +8150,8 @@ div#quit-box {
 }
 #rightside {
   position: fixed;
-  right: -48px;
-  bottom: 60px;
-  bottom: 40px;
+  right: 10px;
+  bottom: 65px;
   z-index: 100;
   opacity: 0x;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0x)";
@@ -8202,7 +8201,7 @@ div#quit-box {
   margin-bottom: 5px;
   width: 35px;
   height: 35px;
-  border-radius: 5px;
+  border-radius: 15px;
   background-color: var(--btn-bg);
   color: var(--btn-color);
   text-align: center;
