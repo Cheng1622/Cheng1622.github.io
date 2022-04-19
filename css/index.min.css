@@ -639,9 +639,9 @@ figure.effect-apollo:hover p {
     width: 100%;
     text-align: center;
     /* -webkit-line-clamp: 1; */
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    /* -webkit-box-orient: vertical; */
+    /* overflow: hidden; */
+    /* text-overflow: ellipsis; */
     transition: 0.3s;
     font-weight: bold;
   }
